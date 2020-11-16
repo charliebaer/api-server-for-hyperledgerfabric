@@ -3,7 +3,7 @@ var Kafka = require('node-rdkafka');
 
 var consumer = new Kafka.KafkaConsumer({
   //'debug': 'all',
-  'metadata.broker.list': 'localhost:9092',
+  'metadata.broker.list': 'localhost:19092',
   'group.id': 'node-rdkafka-consumer-flow-example',
   'enable.auto.commit': false
 });

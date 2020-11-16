@@ -3,7 +3,7 @@ var Kafka = require("node-rdkafka");
 module.exports = function mykafkafunction(event) {
   var producer = new Kafka.Producer({
     //'debug' : 'all',
-    "metadata.broker.list": "localhost:9092",
+    "metadata.broker.list": "localhost:19092",
     dr_cb: true, //delivery report callback
   });
 
